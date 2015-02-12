@@ -66,7 +66,7 @@ ManUp.js lets your write to the simple  [Manifest for Web Apps](http://w3c.githu
 
 *Step 1*: Add the manifest file to your site with a link tag like so:
 
-```
+```html
 
     <link rel="manifest" href="manifest.json">
 
@@ -74,7 +74,7 @@ ManUp.js lets your write to the simple  [Manifest for Web Apps](http://w3c.githu
 
 *Step 2*: Add the manup.min.js file to your page (we recommend the bottom of the page, but just make it somewhere below the manifest file) like so:
 
-```
+```html
 
 <script src="manup.js"></script>
 
@@ -82,7 +82,7 @@ ManUp.js lets your write to the simple  [Manifest for Web Apps](http://w3c.githu
 
 
 *Step 3*: Make sure you web server is configured to properly serve the manifest file with the proper mimetype of "application/manifest+json".  In IIS you just add a web.config file to the root of your server and add this:
-```
+```xml
 
 <?xml version="1.0"?>
 <configuration>
@@ -101,4 +101,14 @@ ManUp.js lets your write to the simple  [Manifest for Web Apps](http://w3c.githu
 
 
 ##Know support
+
+#### Browsers that support W3C Manifest for Web Apps
+ - Chrome for Android 38+
+
+### Browsers that benifit from the polyfill
+  - Chrome for Android
+  - Android Browser
+  - Safari for iOS
+  - Windows Phone 8
+  - Windows 8
 
