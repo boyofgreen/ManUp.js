@@ -1,6 +1,6 @@
 {
-  "name": "NOT such a silly App",
-  "short_name": "NOT Silly App",
+  "name": "ManUp! JS, the Manifest Polyfill",
+  "short_name": "ManUP! JS",
   "icons": [
     {
       "src": "images/tiny.png",
