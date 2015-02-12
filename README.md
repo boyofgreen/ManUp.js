@@ -100,6 +100,8 @@ ManUp.js lets your write to the simple  [Manifest for Web Apps](http://w3c.githu
 </configuration>
 
 ```
+##Demo Page
+View a demo at http://manupjs.azurewebsites.net/
 
 
 ##Know support
