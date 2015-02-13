@@ -81,7 +81,7 @@ var generateLinkArray = function () {
     for (var i = 0; i < tempLinkArray.length; i++) {
 
         var linkTag = document.createElement('link');
-        linkTag.setAttribute('ref', tempLinkArray[i].name);
+        linkTag.setAttribute('rel', tempLinkArray[i].name);
         linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
         linkTag.setAttribute('href', tempLinkArray[i].content);
         headTarget.appendChild(linkTag);
