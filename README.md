@@ -110,9 +110,10 @@ View a demo at http://manupjs.azurewebsites.net/
  - Chrome for Android 38+
 
 ### Browsers that benifit from the polyfill
-  - Chrome for Android
+  - Chrome for Android 
   - Android Browser
   - Safari for iOS
   - Windows Phone 8
   - Windows 8
+  - FireFox OS 1.1+
 
