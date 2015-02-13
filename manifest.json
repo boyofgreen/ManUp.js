@@ -36,9 +36,9 @@
       "type": "image/png",
       "density": "2.0"
     },
-        {
+    {
       "src": "images/apple-touch-icon-120x120-precomposed.png",
-      "sizes": "7120x120",
+      "sizes": "120x120",
       "type": "image/png",
       "density": "1.5"
     },
