@@ -26,7 +26,8 @@ var generateFullMetaData = function(){
           }
       }else{
           validMetaValues[i].content = manUpObject[validMetaValues[i].manifestName];
-          if(validMetaValues[i].manifestName == 'display' && manUpObject.display == 'standalone') validMetaValues[i].content == 'yes'
+          if (validMetaValues[i].manifestName == 'display' && manUpObject.display == 'standalone') validMetaValues[i].content = 'yes'
+          console.log('stop')
       }
   } 
  };
