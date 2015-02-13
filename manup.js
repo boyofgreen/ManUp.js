@@ -83,10 +83,10 @@ var generateLinkArray = function () {
         var linkTag = document.createElement('link');
         linkTag.setAttribute('ref', tempLinkArray[i].name);
         linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
-        linkTag.href = tempLinkArray[i].content;
+        linkTag.setAttribute('href', tempLinkArray[i].content);
         headTarget.appendChild(linkTag);
         console.log(linkTag);
-        document.getElementById("output").innerHTML += '<br />'+ linkTag.ref + ' ' + linkTag.sizes + ' ' + linkTag.href;
+        document.getElementById("output").innerHTML += '<br />'+ linkTag.getAttribute('ref') + ' ' + linkTag.sizes + ' ' + linkTag.href;
     }
 };
 //these functions makes the ajax calls and assigns to manUp object
