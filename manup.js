@@ -85,12 +85,13 @@ var generateLinkArray = function () {
         linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
         linkTag.href = tempLinkArray[i].content;
         headTarget.appendChild(linkTag);
+        document.getElementById("output").innerHTML += '<br />'+ linkTag;
     }
 };
 //these functions makes the ajax calls and assigns to manUp object
 var generateObj = function (ajaxString) {
     //for testing
-    document.getElementById("output").innerHTML = ajaxString;
+    //document.getElementById("output").innerHTML = ajaxString;
     //gen object
     manUpObject = JSON.parse(ajaxString);
     generateLinkArray();
