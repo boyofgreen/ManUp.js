@@ -2,7 +2,7 @@
   "name": "ManUp! JS, the Manifest Polyfill",
   "short_name": "ManUP! JS",
   "icons": [
-    {
+      {
       "src": "images/tiny.png",
       "sizes": "70x70",
       "type": "image/png"
@@ -10,6 +10,16 @@
     {
       "src": "images/square.png",
       "sizes": "150x150",
+      "type": "image/png"
+    },
+    {
+      "src": "images/widelogo.310x150.png",
+      "sizes": "150x300",
+      "type": "image/png"
+    },
+    {
+      "src": "images/large-win.png",
+      "sizes": "300x300",
       "type": "image/png"
     },
     {
