@@ -1,6 +1,6 @@
 # ManUp.js
 
-version 0.5
+version 0.7
 
 ##What is it?
 ManUp.js is a polyfill to support the [Manifest for Web Apps](http://w3c.github.io/manifest/).  The Manifest for Web App allows you to build one simple JSON object that contains all the meta data (app name, icons, presentaiton, etc.) instead of having to build out a myrid of meta tags and link tags to suppor each platform.
