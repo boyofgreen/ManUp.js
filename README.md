@@ -24,12 +24,12 @@ ManUp.js is a polyfill to support the [Manifest for Web Apps](http://w3c.github.
     },
     {
       "src": "images/widelogo.310x150.png",
-      "sizes": "150x300",
+      "sizes": "310x150",
       "type": "image/png"
     },
     {
       "src": "images/large-win.png",
-      "sizes": "300x300",
+      "sizes": "310x310",
       "type": "image/png"
     },
     {
