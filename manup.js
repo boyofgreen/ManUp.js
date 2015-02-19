@@ -27,12 +27,12 @@ var generateFullMetaData = function(){
       }else{
           validMetaValues[i].content = manUpObject[validMetaValues[i].manifestName];
           if (validMetaValues[i].manifestName == 'display' && manUpObject.display == 'standalone') validMetaValues[i].content = 'yes'
-          console.log('stop')
+         // console.log('stop')
       }
   } 
  };
 
- console.log(validMetaValues)
+ //console.log(validMetaValues)
  return validMetaValues
 };
 
@@ -56,7 +56,7 @@ var generateFullLinkData = function () {
         }
     };
 
-    console.log(validMetaValues)
+    //console.log(validMetaValues)
     return validLinkValues
 };
 
@@ -87,8 +87,7 @@ var generateLinkArray = function () {
         linkTag.setAttribute('sizes', tempLinkArray[i].imageSize);
         linkTag.setAttribute('href', tempLinkArray[i].content);
         headTarget.appendChild(linkTag);
-        console.log(linkTag);
-        document.getElementById("output").innerHTML += '<br />'+ linkTag.getAttribute('ref') + ' ' + linkTag.sizes + ' ' + linkTag.href;
+        //console.log(linkTag);
     }
 };
 //these functions makes the ajax calls and assigns to manUp object
