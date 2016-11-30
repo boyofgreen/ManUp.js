@@ -102,11 +102,11 @@ ManUp.js lets you write to the simple [Manifest for Web Apps](http://w3c.github.
 
 ## How do I use it?
 
-*Step 1*: Add the manifest file to your site with a link tag like so:
+*Step 1*: Add the manifest file to your site with a link tag like so (.json file extension also works):
 
 ```html
 
-<link rel="manifest" href="manifest.json">
+<link rel="manifest" href="manifest.webmanifest">
 
 ```
 
